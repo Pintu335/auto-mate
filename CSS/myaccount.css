@@ -1,0 +1,153 @@
+.data{
+    padding-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:ivory;
+    fill-opacity: 0.5;
+}
+a:link{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.container{
+    background-color: #fdde80;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Julius+Sans+One&family=Marcellus+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.header{
+    font-size:larger;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    box-sizing:border-box;
+    box-shadow: black;
+}
+p{
+    font-size: larger;
+    font-family:cursive;
+    border: 5px;
+    border-color: aqua;
+}
+button{
+  color: white;
+  margin-top: 20px;
+  border-color: #357C3C;
+  background: #357C3C;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  /* box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white; */
+  box-shadow: 14px 14px 20px #d1b95a, -14px -14px 20px rgb(218, 190, 89);
+  transition: 0.5s;
+}
+
+button:hover {
+    box-shadow: none;
+}
+
+.edit{
+    display: flex;
+    padding-left: 60%;
+}
+hr{
+    border-top: 1px dotted ivory;
+}
+/* logo */
+#logo{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+  }
+  #header ul{
+    margin-block-start: 1em;
+      margin-block-end: 1em;
+      padding:  0px;
+  }
+  .person_image{
+      height: 40px;
+      width: 40px;
+      background: url("../IMG/logo.jpg");
+      background-size: 100%;
+      left: 15px;
+      top: 15px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-right: 5px;
+      /* box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white; */
+      /* box-shadow: 14px 14px 20px #ddc04a, -14px -14px 20px rgb(237, 192, 32); */
+  }
+  .brand-title {
+    margin-top: 1px;
+    font-weight: 900;
+    font-size: 1rem;
+    color: #5D8233;
+    letter-spacing: 1px;
+    font-family: 'Lovelo Black';
+  }
+  
+  .brand-title .auto{
+      margin-top: 10px;
+      font-weight: 900;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      color: #FFB44A;
+      
+  }
+  
+  .brand-title .hiphen{
+      margin-top: 10px;
+      font-weight: 900;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      color: black;
+  }
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  #navbar li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+  }
+  #navbar li a{
+    text-decoration: none;
+  }
+  #navbar li i{
+    color:#5D8233;
+  }
+  #signinButton button{
+    background-color: #E5E0FF;
+    width: 70px;
+    border-radius: 5px;
+    border: transparent solid;
+    box-shadow: rgba(0,0,0, 1);
+    height: 22px;
+  }
+  #signinButton button:hover{
+    background-color: #CDE990;
+  }
+  
+  #Submit_buttons button{
+    background-color: #E5E0FF;
+    width: 70px;
+    border-radius: 5px;
+    border: transparent solid;
+    box-shadow: rgba(0,0,0, 1);
+    height: 22px;
+  }
+  #Submit_buttons button:hover{
+    background-color: #CDE990;
+  }

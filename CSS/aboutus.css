@@ -1,0 +1,105 @@
+#about{
+    font-size: 15px;
+    font-family: 'Lovelo Line Bold';
+  src: url('../assets/fonts/Lovelo_Line_Bold.otf');
+    
+}
+
+/*body {
+	margin: 60px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 60px;
+}*/
+
+.border {
+	font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 8px solid;
+	padding: 0.5rem;
+}
+
+.full {
+	border-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(159, 162, 154)) 1;
+}
+#thead{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: forestgreen;
+    text-align: left;
+    text-decoration:wavy;
+}
+#name{
+    font-family:  Copperplate, Papyrus, fantasy;
+    font-size:18px ;
+    font-weight: 500;
+}
+
+/* .member{
+    text-align: left;
+    background-color: rgba(240, 248, 255, 0.771);
+    border-radius: 1rem;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+} */
+
+.team_box{
+    /* overflow-y: auto; */
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    font-style: italic;
+}
+hr{
+    border-top: 2px dotted rgb(171, 255, 133);
+    border-left: 2px dotted rgb(171, 255, 133);
+    /*background: dotted green;*/
+}
+.fa-linkedin{
+    padding-left: 30px;
+    color:#0A66C2;
+    font-size: 22px;
+    padding-right: 3px;
+}
+.fa-envelope{
+    color:rgb(255, 106, 0);
+}
+.fa-angle-double-right{
+    color:rgb(30, 154, 181);
+}
+
+.detail{
+    width: 60%;
+    text-align: left;
+}
+.pic{
+    text-align: center;
+    padding-left: 3px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-right: 8px;
+    background-color:rgba(240, 248, 255, 0.749);
+    box-shadow: 5px 5px 5px white;
+    border-radius: 0.7rem;
+    margin-bottom: 20px;
+}
+.fa-github,.fa-envelope{
+    font-size: 22px;
+    padding: 3px;
+}
+.fa-github{
+    color: black;
+}
+img{
+    border-radius: 50%;
+}
